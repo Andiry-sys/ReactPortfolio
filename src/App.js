@@ -12,7 +12,7 @@ function App() {
           <li>Name: Andriy</li>
           <li>Surname: Marchyck</li>
           <li>Age: 17</li>
-          <li>Email: marchycandriY@gmail.com</li>
+          <li>Email: marchycandriy@gmail.com</li>
           <li>Phone: +380937009900</li>
         </ul>
         <p>Skills</p>
