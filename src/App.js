@@ -4,40 +4,74 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>About me</p>
         <ul>
-          <li>Name: Andriy</li>
-          <li>Surname: Marchyck</li>
-          <li>Age: 17</li>
-          <li>Email: marchycandriy@gmail.com</li>
-          <li>Phone: +380937009900</li>
+          <li>
+            Name: <input type={text} value={'Andriy'} />
+          </li>
+          <li>
+            Surname: <input type={text} value={'Marchyck'} />
+          </li>
+          <li>
+            Age: <input type={text} value={17} />
+          </li>
+          <li>
+            Email:
+            <input type={text} value={'marchycandriy@gmail.com'} />
+          </li>
+          <li>
+            Phone: <input type={text} value={'+380937009900'} />
+          </li>
         </ul>
         <p>Skills</p>
         <ul>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>Express</li>
-          <li>MongoDB</li>
-          <li>.NET</li>
-          <li>Angular</li>
-          <li>SQL</li>
+          <li>
+            <input type={'text'} value={'HTML'} />
+          </li>
+          <li>
+            <input type={'text'} value={'CSS'} />
+          </li>
+          <li>
+            <input type={'text'} value={'JavaScript'} />
+          </li>
+          <li>
+            <input type={'text'} value={'React'} />
+          </li>
+          <li>
+            <input type={'text'} value={'MongoDB'} />
+          </li>
+          <li>
+            <input type={'text'} value={'.NET'} />
+          </li>
+          <li>
+            <input type={'text'} value={'Angular'} />
+          </li>
+          <li>
+            <input type={'text'} value={'SQL'} />
+          </li>
         </ul>
         <p>Languages</p>
         <ul>
-          <li>Ukrainian</li>
-          <li>English</li>
-          <li>Russian</li>
+          <li>
+            <input type={'text'} value={'Ukraine'} />
+          </li>
+          <li>
+            <input type={'text'} value={'Englshe'} />
+          </li>
+          <li>
+            <input type={'text'} value={'Russion'} />
+          </li>
         </ul>
         <p>Education</p>
         <ul>
-          <li>IT Step Academy</li>
+          <li>
+            <inpuе type={'text'} value={'IT Step Academy'} />
+          </li>
         </ul>
       </header>
+
       <footer className="App-Footer">
         <a
           className="App-link"
